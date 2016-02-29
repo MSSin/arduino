@@ -7,7 +7,7 @@ int counter = 0; // Count how many times we've blinked
 #include "ESP8266WiFi.h"
 #include <ESP8266WebServer.h>
 const char* host = "api.thingspeak.com"; // Your domain  
-String ApiKey = "Y2VHLZJC7RP0KUQS&test123";
+String ApiKey = "apikey&test123";
 String path = "/update?key=" + ApiKey + "&field1="; 
 
 const char* ssid = "***";
